@@ -12,11 +12,15 @@ My antivirus tried to delete the cmd from the system! So, make sure to turn it o
 
 ### Second: Extract clean.rar
 
-By now, you should have read the previous, as a gift for you, here's the password you have been looking for: "read the danger sign above"
+The password: "read the danger sign above"
 
-### Finaly: Run setup.bat as administrator
+### Finaly: Run setup.bat
 
-It should already throw an error if you didn't do that!
+This step should be pretty obvious!
+
+### Congratulations
+
+Now it's time to check if everything went alright
 
 ## Check
 
@@ -26,27 +30,14 @@ To check if setup is done correctly, press "windows key + r" and type "shell:sta
 
 ### 1. Replace replaceMe
 
-replace the word replaceMe in the file replaceMe.vbs with the path to the main.bat file
+replace the word replaceMe in the file start.vbs with the path to the main.bat file
 
-### 2. Make sure you have the shortcut clean.vbs for start.vbs
-
-#### if not
-
-make a shortcut named clean.vbs from start.vbs
-
-### 3. copy the shortcut to the startup directory
+### 3. copy the file to the startup directory
 
 As mentioned before, you can go to the startup directory by pressing "windows key + r" then typing "shell::startup" in the textbox that appears, it should be something like this:
 
     C:\Users\{user}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 
-if you can't find this path, this should be enough to cause the setup to fail!
-Actually, I believe someone with good knowledge in the IT field should take a look at this! Also, I don't know if it will work but consider running the "sfc /scannow" from the cmd as an administrator
-
-### 4. delete temp files
-
-Now, delete clean.vbs and start.vbs files so they don't cause problems if you tried for some reason to setup the app automaticly with the script provided
-
 ### 5. Congratulations!
 
-Congratulations! Everything should be pretty done by now, you can check temp folders then run the clean.vbs or start.vbs to see it working.
+Congratulations! Everything should be pretty done by now, you can check temp folders then run the clean.vbs to see it working.

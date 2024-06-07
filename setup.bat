@@ -1,1 +1,0 @@
-copy clean.bat "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
